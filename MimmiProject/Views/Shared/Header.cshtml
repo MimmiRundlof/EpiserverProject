@@ -1,0 +1,44 @@
+﻿@using MimmiProject.Models.Pages
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Core
+@model IPageViewModel<SitePageData>
+
+<div class="logo">
+
+
+    <a href="@Model.StartPage.LinkURL">
+        @Html.PropertyFor(x => x.RootPage.Image)
+    </a>
+</div>
+
+<div class="mainmenu">
+    <div id="mainmenu">
+        <ul class="sf-menu">
+
+            <li>
+                @Html.ContentLink(ContentReference.StartPage)
+            </li>
+            @foreach (SitePageData page in Model.MenuPages)
+            {
+                <li>@Html.ContentLink(page.ContentLink)</li>
+            }
+
+
+        </ul>
+    </div>
+</div>
+<form id="responsive-menu" action="#" method="post">
+    <select>
+        <option value="">Navigation</option>
+        <option value="index.html">Home</option>
+        <option value="about.html">About</option>
+        <option value="portfolio.html">Portfolio</option>
+        <option value="portfolioproject.html">Portfolio Project</option>
+        <option value="blog.html">Blog</option>
+        <option value="singleblog.html">Single Post</option>
+        <option value="features.html">Features</option>
+        <option value="contact.html">Contact</option>
+    </select>
+</form>
+    
+

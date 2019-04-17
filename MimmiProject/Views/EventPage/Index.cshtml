@@ -1,0 +1,19 @@
+﻿@using EPiServer.Core
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Web.Mvc.Html
+@model IPageViewModel<MimmiProject.Models.Pages.EventPage>
+<div class="container">
+
+    @if (!String.IsNullOrEmpty(Model.CurrentPage.Heading))
+    {
+        <h3>@Html.PropertyFor(x => x.CurrentPage.Heading)</h3>
+        <p>@Html.PropertyFor(m => m.CurrentPage.Date)</p>
+        @Html.PropertyFor(m => m.CurrentPage.MainContentArea)
+    }
+    else
+    {
+        <h3>@Html.Translate("/eventpage/noevents")</h3>
+
+    }
+
+</div>

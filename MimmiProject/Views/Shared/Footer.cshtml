@@ -1,0 +1,53 @@
+﻿@using MimmiProject.Models.Pages
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Core
+@model IPageViewModel<SitePageData>
+
+<div class="container">
+    <div class="one_fourth">
+        <h3>@Html.Translate("/footer/contacttext")</h3>
+        <p>
+            <span class="orange"><strong>@Html.Translate("/footer/address")</strong></span> <br>
+            @Html.PropertyFor(x => x.RootPage.Address)
+        </p>
+        <p>
+            <span class="orange"><strong>@Html.Translate("/footer/phone")</strong></span> <br>
+            @Html.PropertyFor(x => x.RootPage.Phone)<br>
+        </p>
+        <p>
+            <span class="orange"><strong>@Html.Translate("/footer/email")</strong></span> <br>
+            @Html.PropertyFor(x => x.RootPage.Email)<br>
+
+        </p>
+    </div>
+    <!-- four columns ends here -->
+
+    <div class="pull-right">
+        
+        <ul>
+            <li>
+                @Html.ContentLink(ContentReference.StartPage)
+            </li>
+            @foreach (SitePageData page in Model.MenuPages)
+            {
+                <li>@Html.ContentLink(page.ContentLink)</li>
+            }
+
+        </ul>
+    </div>
+
+    <!-- four columns ends here -->
+    @*<div class="one_fourth">
+            <h3>Archive</h3>
+            <ul>
+                <li><a href="#" class=""> August 2012</a></li>
+                <li><a href="#" class="">July 2012</a></li>
+                <li><a href="#" class="">Juny 2012</a></li>
+                <li><a href="#" class=""> May 2012</a></li>
+                <li><a href="#" class="">April 2012</a></li>
+            </ul>
+        </div>*@
+    <!-- four columns ends here -->
+    <!-- four columns ends here -->
+</div>
+<!-- container ends here -->

@@ -1,0 +1,62 @@
+﻿@using System.Web
+@using EPiServer.Framework.Web.Mvc.Html
+@using MimmiProject.Models.ViewModels
+@using MimmiProject.Models.Pages
+
+@model IPageViewModel<SitePageData>
+<html lang="@Model.CurrentPage.Language">
+<head>
+    <link href="~/Static/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="~/Static/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Static/css/base.css" rel="stylesheet" />
+    <link href="~/Static/css/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Static/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="~/Static/css/screen.css" rel="stylesheet" />
+    <link href="~/Static/css/skeleton.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.intellisense.js"></script>
+    <script src="~/Static/js/bootstrap-collapse.js"></script>
+    <script src="~/Static/js/bootstrap.js"></script>
+    <script src="~/Static/js/demo.js"></script>
+    <script src="~/Static/js/hoverIntent.js"></script>
+    <script src="~/Static/js/jquery-1.8.0.min.js"></script>
+    <script src="~/Static/js/jquery-ui.js"></script>
+    <script src="~/Static/js/jquery.flexslider-min.js"></script>
+    <script src="~/Static/js/jquery.js"></script>
+    <script src="~/Static/js/jquery.mousewheel.js"></script>
+    <script src="~/Static/js/jquery.prettyPhoto.js"></script>
+    <script src="~/Static/js/modernizr.custom.29473.js"></script>
+    <script src="~/Static/js/screen.js"></script>
+    <script src="~/Static/js/superfish.js"></script>
+    <script src="~/Static/js/tabs.js"></script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@(Model.CurrentPage.MetaTitle ?? Model.CurrentPage.Name)</title>
+    @Html.RequiredClientResources("Header")
+
+</head>
+<body>
+    @Html.RenderEPiServerQuickNavigator()
+    <div id="header">
+        <div class="container">
+            @Html.Partial("Header", Model)
+        </div>
+    </div>
+
+
+    <hr />
+
+    @RenderBody()
+    <div class="footer">
+
+        @Html.Partial("Footer", Model)
+        @Html.RequiredClientResources("Footer")
+
+    </div>
+</body>
+
+</html>

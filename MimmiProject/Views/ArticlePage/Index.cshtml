@@ -1,0 +1,22 @@
+﻿@using EPiServer.Core
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Web.Mvc.Html
+@model IPageViewModel<MimmiProject.Models.Pages.ArticlePage>
+
+
+@{Html.RenderPartial("SubNavigation", Model);}
+<div class="container">
+    <div class="article">
+        <header>
+
+            <h3>@Html.PropertyFor(x => x.CurrentPage.Heading)</h3>
+        </header>
+
+
+        @Html.PropertyFor(m => m.CurrentPage.MainBody)
+
+
+    </div>
+    <img style="width:300px; border:dotted#dcdcdc 1px;" class="shadow" src="@Url.ContentUrl(Model.CurrentPage.Image)" />
+    <hr class="separator1">
+</div>

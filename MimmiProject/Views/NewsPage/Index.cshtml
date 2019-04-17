@@ -1,0 +1,43 @@
+﻿@using EPiServer.Core
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Web.Mvc.Html
+@model NewsPageViewModel
+
+
+<div class="breadcrumbs">
+
+    <header>
+        <h3>
+            @Html.Translate("/newspage/heading")
+        </h3>
+    </header>
+</div>
+@{Html.RenderPartial("SubNavigation", Model);}
+<div class="container">
+
+
+    <div style="padding-left:70px;">
+
+        <ul>
+            @foreach (var page in Model.ArticlePages)
+            {
+                <li class="post" style="display:inline-block;">
+                    <h3>@Html.ContentLink(page.ContentLink)</h3>
+
+                    <img class="shadow" style="height:200px;" src="@Url.ContentUrl(page.Image)" />
+
+                    <hr class="separator1">
+
+
+                </li>
+            }
+
+        </ul>
+    </div>
+
+
+
+
+
+    <hr class="separator1">
+</div>

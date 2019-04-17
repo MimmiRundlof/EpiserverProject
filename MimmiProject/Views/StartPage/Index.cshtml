@@ -1,0 +1,26 @@
+﻿@using EPiServer.Core
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Web.Mvc.Html
+@model IPageViewModel<MimmiProject.Models.Pages.StartPage>
+
+<div class="infobox">
+    <div class="container info">
+        <header>
+            <h1>@Html.Translate("/startpage/heading")</h1>
+            
+        </header>
+        <hr class="separator">
+    </div>
+    <!-- container ends here -->
+</div>
+
+<!-- infobox ends here -->
+<!--Latest Photos ==================================================
+================================================== -->
+<div class="container latest">
+    @Html.PropertyFor(x => x.CurrentPage.MainContentArea)
+
+    <hr class="separator1">
+
+
+</div>

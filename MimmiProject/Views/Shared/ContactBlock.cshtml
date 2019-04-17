@@ -1,0 +1,24 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@model MimmiProject.Models.Blocks.ContactBlock
+<div class="team">
+    <div class="one_third">
+        <img class="shadow" src="@Url.ContentUrl(Model.Image)" />
+        <section class="teaminfo">
+            <h4>@Html.PropertyFor(x => x.Name)
+            </h4>
+            
+
+            <ul>
+                <li>
+                    <p>
+                        <h5>@Html.PropertyFor(x => x.Position)</h5>
+                        Email:
+                        @Html.PropertyFor(x => x.Email)<br />
+                        Phone: @Html.PropertyFor(x => x.Phone)
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>

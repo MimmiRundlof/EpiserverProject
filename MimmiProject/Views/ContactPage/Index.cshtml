@@ -1,0 +1,35 @@
+﻿@using EPiServer.Core
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Web.Mvc.Html
+@model IPageViewModel<MimmiProject.Models.Pages.ContactPage>
+
+<div class="breadcrumbs">
+    <div class="container">
+        <header>
+            <h3>
+                @Html.Translate("/contactpage/heading")
+            </h3>
+        </header>
+
+        <!-- container ends here -->
+        <hr class="separator1">
+    </div>
+</div>
+<div class="container">
+
+    <section class="map">
+        <!-- google map -->
+        <div class="map-holder">
+            @Html.PropertyFor(x => x.CurrentPage.GoogleMapBlock)
+
+            <!-- end google map -->
+            <!--map-container ends here-->
+        </div>
+        <!--map-holder ends here-->
+    </section>
+    @Html.PropertyFor(x => x.CurrentPage.MainContentArea)
+
+   
+
+</div>
+<hr class="separator1">

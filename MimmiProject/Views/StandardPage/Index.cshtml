@@ -1,0 +1,11 @@
+﻿@using EPiServer.Core
+@using MimmiProject.Models.ViewModels
+@using EPiServer.Web.Mvc.Html
+@model IPageViewModel<MimmiProject.Models.Pages.StandardPage>
+
+
+
+<div class="container">
+    @Html.PropertyFor(x => x.CurrentPage.MainBody)
+
+</div>

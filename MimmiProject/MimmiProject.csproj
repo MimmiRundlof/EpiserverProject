@@ -57,50 +57,62 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.Core.11.10.1\lib\net461\EPiServer.dll</HintPath>
+    <Reference Include="EPiServer, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.Core.11.11.0\lib\net461\EPiServer.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.ApplicationModules, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.11.10.1\lib\net461\EPiServer.ApplicationModules.dll</HintPath>
+    <Reference Include="EPiServer.AddOns.Helpers, Version=0.4.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.AddOns.Helpers.0.4.0.0\lib\EPiServer.AddOns.Helpers.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Cms.AspNet, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.AspNet.11.10.1\lib\net461\EPiServer.Cms.AspNet.dll</HintPath>
+    <Reference Include="EPiServer.ApplicationModules, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Framework.11.11.0\lib\net461\EPiServer.ApplicationModules.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Cms.Shell.UI, Version=11.8.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.8.0\lib\net461\EPiServer.Cms.Shell.UI.dll</HintPath>
+    <Reference Include="EPiServer.Cms.AspNet, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.AspNet.11.11.0\lib\net461\EPiServer.Cms.AspNet.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Cms.TinyMce, Version=2.6.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.TinyMce.2.6.2\lib\net461\EPiServer.Cms.TinyMce.dll</HintPath>
+    <Reference Include="EPiServer.Cms.Shell.UI, Version=11.14.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.14.1\lib\net461\EPiServer.Cms.Shell.UI.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Configuration, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.AspNet.11.10.1\lib\net461\EPiServer.Configuration.dll</HintPath>
+    <Reference Include="EPiServer.Cms.TinyMce, Version=2.7.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.TinyMce.2.7.1\lib\net461\EPiServer.Cms.TinyMce.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Data, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.11.10.1\lib\net461\EPiServer.Data.dll</HintPath>
+    <Reference Include="EPiServer.Configuration, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.AspNet.11.11.0\lib\net461\EPiServer.Configuration.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Data.Cache, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.11.10.1\lib\net461\EPiServer.Data.Cache.dll</HintPath>
+    <Reference Include="EPiServer.Data, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Framework.11.11.0\lib\net461\EPiServer.Data.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Enterprise, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.Core.11.10.1\lib\net461\EPiServer.Enterprise.dll</HintPath>
+    <Reference Include="EPiServer.Data.Cache, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Framework.11.11.0\lib\net461\EPiServer.Data.Cache.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Events, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.11.10.1\lib\net461\EPiServer.Events.dll</HintPath>
+    <Reference Include="EPiServer.Enterprise, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.Core.11.11.0\lib\net461\EPiServer.Enterprise.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Framework, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.11.10.1\lib\net461\EPiServer.Framework.dll</HintPath>
+    <Reference Include="EPiServer.Events, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Framework.11.11.0\lib\net461\EPiServer.Events.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Framework.AspNet, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.AspNet.11.10.1\lib\net461\EPiServer.Framework.AspNet.dll</HintPath>
+    <Reference Include="EPiServer.Forms, Version=4.22.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Forms.4.22.0\lib\EPiServer.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.ImageLibrary, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.AspNet.11.10.1\lib\net461\EPiServer.ImageLibrary.dll</HintPath>
+    <Reference Include="EPiServer.Forms.Core, Version=4.22.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Forms.Core.4.22.0\lib\EPiServer.Forms.Core.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Licensing, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.11.10.1\lib\net461\EPiServer.Licensing.dll</HintPath>
+    <Reference Include="EPiServer.Forms.UI, Version=4.22.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Forms.UI.4.22.0\lib\EPiServer.Forms.UI.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.LinkAnalyzer, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.Core.11.10.1\lib\net461\EPiServer.LinkAnalyzer.dll</HintPath>
+    <Reference Include="EPiServer.Framework, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Framework.11.11.0\lib\net461\EPiServer.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.Framework.AspNet, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Framework.AspNet.11.11.0\lib\net461\EPiServer.Framework.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.ImageLibrary, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.AspNet.11.11.0\lib\net461\EPiServer.ImageLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.Licensing, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Framework.11.11.0\lib\net461\EPiServer.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.LinkAnalyzer, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.Core.11.11.0\lib\net461\EPiServer.LinkAnalyzer.dll</HintPath>
     </Reference>
     <Reference Include="EPiServer.Logging.Log4Net, Version=2.2.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Logging.Log4Net.2.2.2\lib\net461\EPiServer.Logging.Log4Net.dll</HintPath>
@@ -108,17 +120,17 @@
     <Reference Include="EPiServer.ServiceLocation.StructureMap, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.ServiceLocation.StructureMap.2.0.1\lib\net461\EPiServer.ServiceLocation.StructureMap.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Shell, Version=11.8.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.8.0\lib\net461\EPiServer.Shell.dll</HintPath>
+    <Reference Include="EPiServer.Shell, Version=11.14.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.14.1\lib\net461\EPiServer.Shell.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Shell.UI, Version=11.8.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.8.0\lib\net461\EPiServer.Shell.UI.dll</HintPath>
+    <Reference Include="EPiServer.Shell.UI, Version=11.14.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.14.1\lib\net461\EPiServer.Shell.UI.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.UI, Version=11.8.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.8.0\lib\net461\EPiServer.UI.dll</HintPath>
+    <Reference Include="EPiServer.UI, Version=11.14.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.UI.Core.11.14.1\lib\net461\EPiServer.UI.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Web.WebControls, Version=11.10.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.CMS.AspNet.11.10.1\lib\net461\EPiServer.Web.WebControls.dll</HintPath>
+    <Reference Include="EPiServer.Web.WebControls, Version=11.11.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.CMS.AspNet.11.11.0\lib\net461\EPiServer.Web.WebControls.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
@@ -149,8 +161,8 @@
     <Reference Include="System.Security.AccessControl, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.AccessControl.4.4.0\lib\net461\System.Security.AccessControl.dll</HintPath>
     </Reference>
-    <Reference Include="System.Security.Cryptography.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Cryptography.Xml.4.4.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    <Reference Include="System.Security.Cryptography.Xml, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.4.4.2\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Permissions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.Permissions.4.4.0\lib\net461\System.Security.Permissions.dll</HintPath>
@@ -216,34 +228,200 @@
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ItemGroup>
+    <Compile Include="Business\ContextExtensions.cs" />
+    <Compile Include="Business\RegisterDependencyResolverInitializationModule.cs" />
+    <Compile Include="Business\UpdateEventScheduledJob.cs" />
+    <Compile Include="Business\SectionExtensionMethods.cs" />
+    <Compile Include="Business\StructureMapDependencyResolver.cs" />
+    <Compile Include="Controllers\ArticlePageController.cs" />
+    <Compile Include="Controllers\ContactPageController.cs" />
+    <Compile Include="Controllers\GoogleMapBlockController.cs" />
+    <Compile Include="Controllers\ImageFileController.cs" />
+    <Compile Include="Controllers\NewsPageController.cs" />
+    <Compile Include="Controllers\EventPageController.cs" />
+    <Compile Include="Controllers\PageControllerBase.cs" />
+    <Compile Include="Controllers\PictureBlockController.cs" />
+    <Compile Include="Controllers\StandardPageController.cs" />
+    <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\HtmlHelper.cs" />
+    <Compile Include="Models\Blocks\ContactBlock.cs" />
+    <Compile Include="Models\Blocks\GoogleMapBlock.cs" />
+    <Compile Include="Models\Blocks\PictureBlock.cs" />
+    <Compile Include="Models\Media\ImageFile.cs" />
+    <Compile Include="Models\Pages\ArticlePage.cs" />
+    <Compile Include="Models\Pages\ContactPage.cs" />
+    <Compile Include="Models\Pages\EventPage.cs" />
+    <Compile Include="Models\Pages\NewsPage.cs" />
+    <Compile Include="Models\Pages\SitePageData.cs" />
+    <Compile Include="Models\Pages\StandardPage.cs" />
+    <Compile Include="Models\Pages\StartPage.cs" />
+    <Compile Include="Models\Pages\SysRoot.cs" />
+    <Compile Include="Models\ViewModels\ContactBlockViewModel.cs" />
+    <Compile Include="Models\ViewModels\GoogleMapViewModel.cs" />
+    <Compile Include="Models\ViewModels\ImageViewModel.cs" />
+    <Compile Include="Models\ViewModels\IPageViewModel.cs" />
+    <Compile Include="Models\ViewModels\NewsPageViewModel.cs" />
+    <Compile Include="Models\ViewModels\PageViewModel.cs" />
+    <Compile Include="Models\ViewModels\PictureBlockViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteTabNames.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\Blocks\" />
-    <Folder Include="Models\Media\" />
-    <Folder Include="Models\Pages\" />
     <Folder Include="Models\Properties\" />
-    <Folder Include="Static\" />
-    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Web.config" />
-    <Content Include="Global.asax" />
-    <Content Include="Web.config" />
-    <Content Include="App_Data\GeoLiteCity.dat" />
-    <None Include="EPiServerLog.config" />
+    <Content Include="modules\_protected\EPiServer.Forms\EPiServer.Forms.zip" />
     <Content Include="modules\_protected\Shell\web.config" />
     <Content Include="modules\_protected\Shell\Shell.zip" />
     <Content Include="modules\_protected\CMS\web.config" />
     <Content Include="modules\_protected\CMS\CMS.zip" />
+    <Content Include="modules\_protected\EPiServer.Forms.UI\module.config" />
+    <Content Include="modules\_protected\EPiServer.Forms.UI\EPiServer.Forms.UI.zip" />
+    <Content Include="modules\_protected\EPiServer.Forms\Views\ElementBlocks\Web.config" />
+    <Content Include="modules\_protected\EPiServer.Forms\Forms.config" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Static\css\base.css" />
+    <Content Include="Static\css\bootstrap-responsive.css" />
+    <Content Include="Static\css\bootstrap.css" />
+    <Content Include="Static\css\prettyPhoto.css" />
+    <Content Include="Static\css\screen.css" />
+    <Content Include="Static\css\skeleton.css" />
+    <Content Include="Static\images\apple-touch-icon-114x114.png" />
+    <Content Include="Static\images\apple-touch-icon-72x72.png" />
+    <Content Include="Static\images\apple-touch-icon.png" />
+    <Content Include="Static\images\bg\caption.png" />
+    <Content Include="Static\images\bg\caption1.png" />
+    <Content Include="Static\images\bg\caption2.png" />
+    <Content Include="Static\images\bg\lightpaperfibers.png" />
+    <Content Include="Static\images\blog\1.jpg" />
+    <Content Include="Static\images\blog\2.jpg" />
+    <Content Include="Static\images\blog\3.jpg" />
+    <Content Include="Static\images\favicon.png" />
+    <Content Include="Static\images\flexslider\1.jpg" />
+    <Content Include="Static\images\flexslider\2.jpg" />
+    <Content Include="Static\images\flexslider\3.jpg" />
+    <Content Include="Static\images\flexslider\bg_direction_nav.png" />
+    <Content Include="Static\images\images\1.jpg" />
+    <Content Include="Static\images\images\2.jpg" />
+    <Content Include="Static\images\images\3.jpg" />
+    <Content Include="Static\images\images\4.jpg" />
+    <Content Include="Static\images\images\5.jpg" />
+    <Content Include="Static\images\images\6.jpg" />
+    <Content Include="Static\images\images\7.jpg" />
+    <Content Include="Static\images\images\8.jpg" />
+    <Content Include="Static\images\images\work1.jpg" />
+    <Content Include="Static\images\images\work2.jpg" />
+    <Content Include="Static\images\images\work3.jpg" />
+    <Content Include="Static\images\images\work4.jpg" />
+    <Content Include="Static\images\loader.gif" />
+    <Content Include="Static\images\logo.png" />
+    <Content Include="Static\images\navselect.gif" />
+    <Content Include="Static\images\portfolio\a.jpg" />
+    <Content Include="Static\images\portfolio\b.jpg" />
+    <Content Include="Static\images\portfolio\c.jpg" />
+    <Content Include="Static\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="Static\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="Static\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="Static\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="Static\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="Static\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="Static\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="Static\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="Static\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="Static\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="Static\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="Static\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="Static\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="Static\images\prettyPhoto\default\loader.gif" />
+    <Content Include="Static\images\prettyPhoto\default\sprite.png" />
+    <Content Include="Static\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="Static\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="Static\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="Static\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="Static\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="Static\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="Static\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="Static\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="Static\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="Static\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="Static\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="Static\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="Static\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="Static\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="Static\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="Static\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="Static\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="Static\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="Static\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="Static\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="Static\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="Static\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="Static\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="Static\images\rausch.png" />
+    <Content Include="Static\images\socials\dribbble.png" />
+    <Content Include="Static\images\socials\facebook.png" />
+    <Content Include="Static\images\socials\google+.png" />
+    <Content Include="Static\images\socials\linkedin.png" />
+    <Content Include="Static\images\socials\twitter.png" />
+    <Content Include="Static\images\socials\youtube.png" />
+    <Content Include="Static\images\testimonials.jpg" />
+    <Content Include="Static\images\toggle.png" />
+    <Content Include="Static\js\demo.js" />
+    <Content Include="Static\js\hoverIntent.js" />
+    <Content Include="Static\js\jquery-1.8.0.min.js" />
+    <Content Include="Static\js\jquery.flexslider-min.js" />
+    <Content Include="Static\js\jquery.mousewheel.js" />
+    <Content Include="Static\js\jquery.prettyPhoto.js" />
+    <Content Include="Static\js\modernizr.custom.29473.js" />
+    <Content Include="Static\js\screen.js" />
+    <Content Include="Static\js\superfish.js" />
+    <Content Include="Static\js\tabs.js" />
+    <Content Include="Resources\LanguageFiles\Views.xml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\GeoLiteCity.dat" />
+    <None Include="EPiServerLog.config">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\web.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" />
     <None Include="packages.config" />
+    <Content Include="Views\StartPage\Index.cshtml" />
+    <Content Include="Views\Shared\Header.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Root.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\StandardPage\Index.cshtml" />
+    <Content Include="Static\images\apple-touch-icon-72x72" />
+    <Content Include="Static\images\bg\.DS_Store" />
+    <Content Include="Static\images\blog\.DS_Store" />
+    <Content Include="Static\images\flexslider\.DS_Store" />
+    <Content Include="Static\images\images\.DS_Store" />
+    <Content Include="Static\images\portfolio\.DS_Store" />
+    <Content Include="Static\images\prettyPhoto\.DS_Store" />
+    <Content Include="Static\images\socials\.DS_Store" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Views\ImageFile\ImageFile.cshtml" />
+    <Content Include="Views\ContactPage\Index.cshtml" />
+    <Content Include="Views\Shared\Footer.cshtml" />
+    <Content Include="Views\PictureBlock\Index.cshtml" />
+    <Content Include="Views\GoogleMapBlock\Index.cshtml" />
+    <Content Include="Views\NewsPage\Index.cshtml" />
+    <Content Include="Views\ArticlePage\Index.cshtml" />
+    <Content Include="Views\Shared\ContactBlock.cshtml" />
+    <Content Include="Views\Shared\Subnavigation.cshtml" />
+    <Content Include="Views\Shared\Layouts\_LeftNavigation.cshtml" />
+    <Content Include="Views\EventPage\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

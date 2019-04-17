@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+<language name="English" id="en">
+ <startpage>
+ <heading>Welcome</heading>
+ </startpage>
+  <contactpage>
+    <heading>CONTACT</heading>
+  </contactpage>
+    <eventpage>
+    <noevents>No upcoming events.</noevents>
+  </eventpage>
+    <newspage>
+    <heading>NEWS</heading>
+  </newspage>
+ <footer>
+ <contacttext>CONTACT INFORMATION</contacttext>
+   <address>Address:</address>
+   <phone>Phone:</phone>
+   <email>Email:</email>
+ </footer>
+  </language>
+  
+<language name="Swedish" id="sv">
+ <startpage>
+ <heading>Välkommen</heading>
+ </startpage>
+    <contactpage>
+    <heading>KONTAKT</heading>
+  </contactpage>
+      <newspage>
+    <heading>NYHETER</heading>
+  </newspage>
+      <eventpage>
+    <noevents>Inga tillgängliga events.</noevents>
+  </eventpage>
+ <footer>
+ <contacttext>KONTAKTINFORMATION</contacttext>
+    <address>Adress:</address>
+   <phone>Telefon:</phone>
+   <email>Mail:</email>
+ </footer>
+  </language>
+
+</languages>
